@@ -1,0 +1,26 @@
+{
+  "model": "TfidfVectorizer(ngram 1-2) + LogisticRegression",
+  "classes": [
+    "detresse_urgence",
+    "restriction_alimentaire",
+    "out_of_scope",
+    "food_specific",
+    "in_scope"
+  ],
+  "train_size": 375,
+  "test_size": 125,
+  "train_generators": [
+    "claude_opus_5",
+    "claude_opus_4.8",
+    "gpt_luna"
+  ],
+  "test_generator": "gemini_1.5_pro",
+  "metrics_test": {
+    "accuracy_model": 0.664,
+    "accuracy_combined": 0.712,
+    "recall_detresse_combined": 1.0
+  },
+  "safety_net_version": "1.0",
+  "sklearn_version": "1.9.0",
+  "date": "2026-09-09"
+}
