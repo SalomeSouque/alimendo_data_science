@@ -1,0 +1,126 @@
+{
+  "_README": [
+    "landmarks de normalisation du referentiel de score v1.0.",
+    "Source : cellule de controle final du notebook de calibration CIQUAL 2020 (3 186 aliments).",
+    "med = mediane, p10 = 10e centile, p90 = 90e centile, pour 100 g."
+  ],
+  "version": "v1.0",
+  "base_calibration": "CIQUAL 2020 (ANSES), 3186 aliments",
+  "landmarks": {
+    "glucides": {
+        "mediane": 6.4,
+        "p10": 0.0,
+        "p90": 58.74000000000006
+    },
+    "proteines": {
+        "mediane": 6.94,
+        "p10": 0.5,
+        "p90": 22.9
+    },
+    "lipides": {
+        "mediane": 4.7,
+        "p10": 0.0965,
+        "p90": 27.5
+    },
+    "graisses_saturees": {
+        "mediane": 1.475,
+        "p10": 0.0135,
+        "p90": 13.2
+    },
+    "cholesterol": {
+        "mediane": 18.1,
+        "p10": 0.0,
+        "p90": 103.0
+    },
+    "fer": {
+        "mediane": 0.78,
+        "p10": 0.08,
+        "p90": 4.5
+    },
+    "vitamine_b12": {
+        "mediane": 0.24,
+        "p10": 0.0,
+        "p90": 2.82
+    },
+    "fibres": {
+        "mediane": 1.0,
+        "p10": 0.0,
+        "p90": 5.2850000000000135
+    },
+    "omega3": {
+        "mediane": 0.059,
+        "p10": 0.0,
+        "p90": 0.4505
+    },
+    "omega6": {
+        "mediane": 0.45,
+        "p10": 0.0038,
+        "p90": 3.15
+    },
+    "vitamine_a": {
+        "mediane": 0.0,
+        "p10": 0.0,
+        "p90": 150.0
+    },
+    "beta_carotene": {
+        "mediane": 10.55,
+        "p10": 0.0,
+        "p90": 560.0
+    },
+    "vitamine_c": {
+        "mediane": 0.82,
+        "p10": 0.0,
+        "p90": 21.45
+    },
+    "vitamine_d": {
+        "mediane": 0.0,
+        "p10": 0.0,
+        "p90": 1.2520000000000027
+    },
+    "vitamine_e": {
+        "mediane": 0.54,
+        "p10": 0.0,
+        "p90": 4.0
+    },
+    "vitamine_b6": {
+        "mediane": 0.1,
+        "p10": 0.01,
+        "p90": 0.4909999999999991
+    },
+    "folates": {
+        "mediane": 18.0,
+        "p10": 1.0,
+        "p90": 82.0
+    },
+    "thiamine": {
+        "mediane": 0.061,
+        "p10": 0.0,
+        "p90": 0.38
+    },
+    "riboflavine": {
+        "mediane": 0.09,
+        "p10": 0.0,
+        "p90": 0.43
+    },
+    "niacine": {
+        "mediane": 0.855,
+        "p10": 0.0,
+        "p90": 6.585
+    },
+    "magnesium": {
+        "mediane": 20.0,
+        "p10": 6.0,
+        "p90": 70.40000000000005
+    },
+    "selenium": {
+        "mediane": 0.1,
+        "p10": 0.0,
+        "p90": 23.8
+    },
+    "zinc": {
+        "mediane": 0.6,
+        "p10": 0.045,
+        "p90": 3.48
+    }
+    }
+}
